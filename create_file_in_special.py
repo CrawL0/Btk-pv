@@ -1285,6 +1285,7 @@ class InteractiveReelsGenerator:
 
 def main():
     root = tk.Tk()
+    root.state('zoomed')
     app = InteractiveReelsGenerator(root)
     root.mainloop()
 
